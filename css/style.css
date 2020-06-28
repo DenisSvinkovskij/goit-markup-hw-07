@@ -270,6 +270,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 492px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .hero-title {
@@ -295,6 +298,10 @@ ul {
 @media screen and (min-width: 940px) {
   .banner-background {
     background-image: url(../images/banner-desktop.jpg);
+  }
+
+  .hero {
+    width: 500px;
   }
 
   .partners {
